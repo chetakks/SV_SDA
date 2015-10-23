@@ -1,0 +1,81 @@
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: bbbc+comp
+            features  = 453
+             targets  = 38
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [453, 906, 1359]
+Max Nr. PT epochs  = 30
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  None
+Time to train ft layers = mean 128336.21(0.00)s
+Test error =[30.951482479784364]
+mean test error = 30.95(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: bbbc+moa
+            features  = 453
+             targets  = 12
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [453, 906, 1359]
+Max Nr. PT epochs  = 30
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  None
+Time to train ft layers = mean 87720.28(0.00)s
+Test error =[21.016172506738549]
+mean test error = 21.02(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: bbbc+comp
+            features  = 453
+             targets  = 38
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [453, 906, 1359, 1812, 2265]
+Max Nr. PT epochs  = 50
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  None
+Time to train ft layers = mean 827018.13(0.00)s
+Test error =[28.471698113207534]
+mean test error = 28.47(0.00)
+

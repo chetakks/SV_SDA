@@ -1,0 +1,62 @@
+        ######################################################################
+        for i in xrange(self.n_layers):
+            # construct the sigmoidal layer
+
+            # the size of the input is either the number of hidden units of
+            # the layer below or the input size if we are on the first layer
+            if i == 0:
+                input_size = n_ins
+            else:
+                input_size = hidden_layers_sizes[i - 1]
+
+            # the input to this layer is either the activation of the hidden
+            # layer below or the input of the SdA if you are on the first
+            # layer
+            if i == 0:
+                layer_input = self.x
+            else:
+                layer_input = self.sigmoid_layers[-1].output
+
+            sigmoid_layer2 = HiddenLayer(rng=numpy_rng,
+                                        input=layer_input,
+                                        n_in=input_size,
+                                        n_out=hidden_layers_sizes[i],
+                                        activation=T.nnet.sigmoid)
+            # add the layer to our list of layers
+            self.sigmoid_layers2.append(sigmoid_layer2)
+            # its arguably a philosophical question...
+            # but we are going to only declare that the parameters of the
+            # sigmoid_layers are parameters of the StackedDAA
+            # the visible biases in the dA are parameters of those
+            # dA, but not the SdA
+            self.params2.extend(sigmoid_layer2.params)
+            self.params2_b.extend(sigmoid_layer2.params)
+
+            # Construct a denoising autoencoder that shared weights with this
+            # layer
+            dA_layer2 = dA5(numpy_rng=numpy_rng,
+                          theano_rng=theano_rng,
+                          input=layer_input,
+                          n_visible=input_size,
+                          n_hidden=hidden_layers_sizes[i],
+                          tau = tau,
+                          W=sigmoid_layer2.W,
+                          bhid=sigmoid_layer2.b)
+            self.dA_layers2.append(dA_layer2)
+            
+        ###### combine more networks
+        #a1 = self.sigmoid_layers[-1].output
+        #a2 = self.sigmoid_layers2[-1].output
+        
+        for i in xrange(2):
+            if i == 0:
+                combine_ins = self.sigmoid_layers[-1]
+            else:
+                self.sigmoid_layers2[-1].extend(self.sigmoid_layers[-1].output)
+        
+        b1 = hidden_layers_sizes[-1]
+        b2 = hidden_layers_sizes[-1]
+        # We now need to add a logistic layer on top of the MLP
+        self.logLayer = LogisticRegression(
+                         input=self.combine_ins.output,
+                         n_in=b1+b2, n_out=n_outs)

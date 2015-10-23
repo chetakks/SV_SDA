@@ -1,0 +1,170 @@
+Human MCF7 cells – compound-profiling experiment
+results/test_bbbc_gpu0/bbbc_1.00/outputs_20140901150040_001.pkl.gz
+Experiment with bbbc and None mode None
+... loading data
+bbbc
+proportion of target 0 in
+    trai set: 0.38125
+proportion of target 1 in
+    trai set: 0.3184375
+proportion of target 2 in
+    trai set: 0.3003125
+nr features:        5120
+nr targets:        3
+targets are:     [0.0, 1.0, 2.0]
+nr training instances:   6400
+nr validation instances:  3200
+nr test instances:       3200
+... building the model
+code in Sda6
+theano_rng 822569775
+code in hidden layer
+Initial model:
+(5120, 200)
+code in hidden layer
+Initial model:
+(200, 200)
+ y.ndim 1
+... getting the pretraining functions
+da5 get_corrupted_input theano_rng 822569775
+da5 get_corrupted_input theano_rng 822569775
+... pre-training the model
+Pre-training layer 0, epoch 0, cost  186.735068408
+Pre-training layer 0, epoch 1, cost  130.436409575
+Pre-training layer 0, epoch 2, cost  130.43155008
+Pre-training layer 0, epoch 3, cost  130.431542878
+Pre-training layer 0, epoch 4, cost  130.43154175
+Pre-training layer 0, epoch 5, cost  130.431541759
+Pre-training layer 0, epoch 6, cost  130.431537339
+Pre-training layer 0, epoch 7, cost  130.431546391
+Pre-training layer 0, epoch 8, cost  130.431545915
+Pre-training layer 0, epoch 9, cost  130.431547916
+Pre-training layer 1, epoch 0, cost  125.037341859
+Pre-training layer 1, epoch 1, cost  121.953463292
+Pre-training layer 1, epoch 2, cost  121.336517751
+Pre-training layer 1, epoch 3, cost  120.976551053
+Pre-training layer 1, epoch 4, cost  120.748546088
+Pre-training layer 1, epoch 5, cost  120.601948851
+Pre-training layer 1, epoch 6, cost  120.495730477
+Pre-training layer 1, epoch 7, cost  120.415799021
+Pre-training layer 1, epoch 8, cost  120.354590136
+Pre-training layer 1, epoch 9, cost  120.31351071
+The pretraining code for file source_t_source3.pyc ran for 12.32m
+... getting the finetuning functions
+... finetunning the model
+... finetunning the model
+epoch 1, minibatch 6400/6400, validation error 61.781250 %
+     epoch 1, minibatch 6400/6400, test error of best model 62.468750 %
+epoch 2, minibatch 6400/6400, validation error 61.781250 %
+epoch 3, minibatch 6400/6400, validation error 61.781250 %
+epoch 4, minibatch 6400/6400, validation error 61.781250 %
+epoch 5, minibatch 6400/6400, validation error 61.781250 %
+epoch 6, minibatch 6400/6400, validation error 61.781250 %
+epoch 7, minibatch 6400/6400, validation error 61.781250 %
+epoch 8, minibatch 6400/6400, validation error 61.781250 %
+epoch 9, minibatch 6400/6400, validation error 61.781250 %
+epoch 10, minibatch 6400/6400, validation error 61.781250 %
+Optimization complete with best validation score of 61.781250 %,with test performance 62.468750 %
+The training code for file mlp5_train_model2.pyc ran for 5.00m
+done
+Result of repetition #  1
+training data fraction =1.0
+best_validation error =[61.78125]
+mean validation error =61.78125
+std validation error =0.0
+Test error =[62.468749999999993]
+mean test error =62.46875
+std test error =0.0
+Time take for train pt layers in sec =  [739.21]
+Time to train pt layers = mean 739.21(0.00)s
+Time take for train ft layers in sec =  [301.7099999999999]
+Time to train ft layers = mean 301.71(0.00)s
+The code ran for 18.44m
+Testing the Reusability SDA code for file repetitions.pyc ran for 18.44m
+
+
+
+
+Experiment with bbbc and None mode None
+WARNING (theano.sandbox.cuda): Ignoring call to use(0), GPU number 1 is already in use.
+... loading data
+bbbc
+proportion of target 0 in
+    trai set: 0.38125
+proportion of target 1 in
+    trai set: 0.3184375
+proportion of target 2 in
+    trai set: 0.3003125
+nr features:        5120
+nr targets:        3
+targets are:     [0.0, 1.0, 2.0]
+nr training instances:   6400
+nr validation instances:  3200
+nr test instances:       3200
+... building the model
+code in Sda6
+theano_rng 822569775
+code in hidden layer
+Initial model:
+(5120, 256)
+code in hidden layer
+Initial model:
+(256, 128)
+ y.ndim 1
+... getting the pretraining functions
+da5 get_corrupted_input theano_rng 822569775
+da5 get_corrupted_input theano_rng 822569775
+... pre-training the model
+Pre-training layer 0, epoch 0, cost  178.679279867
+Pre-training layer 0, epoch 1, cost  130.433929783
+Pre-training layer 0, epoch 2, cost  130.431566119
+Pre-training layer 0, epoch 3, cost  130.431564854
+Pre-training layer 0, epoch 4, cost  130.431563661
+Pre-training layer 0, epoch 5, cost  130.431563773
+Pre-training layer 0, epoch 6, cost  130.431559151
+Pre-training layer 0, epoch 7, cost  130.431568526
+Pre-training layer 0, epoch 8, cost  130.43156816
+Pre-training layer 0, epoch 9, cost  130.431570203
+Pre-training layer 1, epoch 0, cost  168.134243085
+Pre-training layer 1, epoch 1, cost  165.703923404
+Pre-training layer 1, epoch 2, cost  165.299055523
+Pre-training layer 1, epoch 3, cost  165.077064692
+Pre-training layer 1, epoch 4, cost  164.954613212
+Pre-training layer 1, epoch 5, cost  164.863573529
+Pre-training layer 1, epoch 6, cost  164.805147855
+Pre-training layer 1, epoch 7, cost  164.762653755
+Pre-training layer 1, epoch 8, cost  164.733834955
+Pre-training layer 1, epoch 9, cost  164.706880646
+The pretraining code for file source_t_source3.pyc ran for 16.40m
+... getting the finetuning functions
+... finetunning the model
+... finetunning the model
+epoch 1, minibatch 6400/6400, validation error 61.781250 %
+     epoch 1, minibatch 6400/6400, test error of best model 62.468750 %
+epoch 2, minibatch 6400/6400, validation error 61.781250 %
+epoch 3, minibatch 6400/6400, validation error 61.781250 %
+epoch 4, minibatch 6400/6400, validation error 61.781250 %
+epoch 5, minibatch 6400/6400, validation error 61.781250 %
+epoch 6, minibatch 6400/6400, validation error 61.781250 %
+epoch 7, minibatch 6400/6400, validation error 61.781250 %
+epoch 8, minibatch 6400/6400, validation error 61.781250 %
+epoch 9, minibatch 6400/6400, validation error 61.781250 %
+epoch 10, minibatch 6400/6400, validation error 61.781250 %
+Optimization complete with best validation score of 61.781250 %,with test performance 62.468750 %
+The training code for file mlp5_train_model2.pyc ran for 6.12m
+done
+Result of repetition #  1
+training data fraction =1.0
+best_validation error =[61.78125]
+mean validation error =61.78125
+std validation error =0.0
+Test error =[62.468749999999993]
+mean test error =62.46875
+std test error =0.0
+Time take for train pt layers in sec =  [984.25]
+Time to train pt layers = mean 984.25(0.00)s
+Time take for train ft layers in sec =  [368.3800000000001]
+Time to train ft layers = mean 368.38(0.00)s
+The code ran for 23.66m
+Testing the Reusability SDA code for file repetitions.pyc ran for 23.66m
+

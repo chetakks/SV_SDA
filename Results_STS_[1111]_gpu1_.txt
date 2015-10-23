@@ -1,0 +1,175 @@
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_1
+training data fraction =1.0
+target_dataset details: chars74k_lowercase28x28
+            features  = 784
+             targets  = 26
+source_dataset details: mnist
+             features = 784
+              targets = 10
+Architecture details:   
+hidden_layers_sizes= [576, 400, 256]
+Max Nr. PT epochs  = 40
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 1
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 3265.78(903.05)s
+Test error =[4.5124167171411269, 4.6184130829800125, 4.5881284070260451]
+mean test error = 4.57(0.04)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_1
+training data fraction =1.0
+target_dataset details: mnist
+            features  = 784
+             targets  = 10
+source_dataset details: chars74k_lowercase28x28
+             features = 784
+              targets = 26
+Architecture details:   
+hidden_layers_sizes= [576, 400, 256]
+Max Nr. PT epochs  = 40
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 1
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 2160.99(254.76)s
+Test error =[1.49, 1.4399999999999999, 1.4299999999999999]
+mean test error = 1.45(0.03)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_2
+training data fraction =1.0
+target_dataset details: chars74k_lowercase28x28
+            features  = 784
+             targets  = 26
+source_dataset details: mnist
+             features = 784
+              targets = 10
+Architecture details:   
+hidden_layers_sizes= [576, 400, 256]
+Max Nr. PT epochs  = 40
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 1
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 1195.26(365.16)s
+Test error =[4.7395517867958814, 4.5275590551181102, 4.5729860690490609]
+mean test error = 4.61(0.09)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_2
+training data fraction =1.0
+target_dataset details: mnist
+            features  = 784
+             targets  = 10
+source_dataset details: chars74k_lowercase28x28
+             features = 784
+              targets = 26
+Architecture details:   
+hidden_layers_sizes= [576, 400, 256]
+Max Nr. PT epochs  = 40
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 1
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 3734.26(2171.59)s
+Test error =[1.49, 1.53, 1.5]
+mean test error = 1.51(0.02)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_3
+training data fraction =1.0
+target_dataset details: chars74k_lowercase28x28
+            features  = 784
+             targets  = 26
+source_dataset details: mnist
+             features = 784
+              targets = 10
+Architecture details:   
+hidden_layers_sizes= [576, 400, 256]
+Max Nr. PT epochs  = 40
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 1
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 858.98(315.25)s
+Test error =[4.4064203513022413, 4.4821320411871586, 4.5729860690490609]
+mean test error = 4.49(0.07)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_3
+training data fraction =1.0
+target_dataset details: mnist
+            features  = 784
+             targets  = 10
+source_dataset details: chars74k_lowercase28x28
+             features = 784
+              targets = 26
+Architecture details:   
+hidden_layers_sizes= [576, 400, 256]
+Max Nr. PT epochs  = 40
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 1
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 8882.21(4918.66)s
+Test error =[1.46, 1.4399999999999999, 1.48]
+mean test error = 1.46(0.02)
+
+====================================================================
+====================================================================
+====================================================================
+====================================================================
+====================================================================
+====================================================================
+====================================================================
+from repetition 1 to 10
+====================================================================
+====================================================================
+====================================================================
+
+

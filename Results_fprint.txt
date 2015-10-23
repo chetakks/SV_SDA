@@ -1,0 +1,810 @@
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [500, 500, 500]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 4.87(0.00)s
+Time to train ft layers = mean 64.83(0.00)s
+Test error =[67.430000000000021]
+mean test error = 67.43(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 2.43(0.00)s
+Time to train ft layers = mean 47.07(0.00)s
+Test error =[67.45999999999998]
+mean test error = 67.46(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 2.43(0.00)s
+Time to train ft layers = mean 53.41(0.00)s
+Test error =[0.12]
+mean test error = 0.12(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 2.43(0.00)s
+Time to train ft layers = mean 53.18(0.00)s
+Test error =[0.12]
+mean test error = 0.12(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 2.46(0.00)s
+Time to train ft layers = mean 54.82(0.00)s
+Test error =[1.390000000000001]
+mean test error = 1.39(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh102_1cs_2p_3o
+            features  = 784
+             targets  = 2
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 2.44(0.00)s
+Time to train ft layers = mean 51.42(0.00)s
+Test error =[0.20000000000000001]
+mean test error = 0.20(0.00)
+
+====================================================================
+ApproachBL
+approach BL
+training data fraction =1.0
+target_dataset details: sh202_1cs_2p_3o
+            features  = 784
+             targets  = 2
+source_dataset details: None
+             features = None
+              targets = None
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = None
+source_reuse_mode  = None
+
+====  results for repetition # 1 out of 1
+Time to train pt layers = mean 2.40(0.00)s
+Time to train ft layers = mean 54.21(0.00)s
+Test error =[0.87000000000000044]
+mean test error = 0.87(0.00)
+
+====================================================================
+ApproachTL
+approach TL
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.58(0.00)s
+Test error =[0.25000000000000006]
+mean test error = 0.25(0.00)
+
+====================================================================
+ApproachTL
+approach TL
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 123.46(0.00)s
+Test error =[0.47000000000000008]
+mean test error = 0.47(0.00)
+
+====================================================================
+ApproachSTS
+approach STS
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 49.14(0.00)s
+Test error =[0.17000000000000001]
+mean test error = 0.17(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_1
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.27(0.00)s
+Test error =[0.25000000000000006]
+mean test error = 0.25(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_1
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.10(0.00)s
+Test error =[1.7900000000000014]
+mean test error = 1.79(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_2
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.87(0.00)s
+Test error =[0.20999999999999999]
+mean test error = 0.21(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_2
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.04(0.00)s
+Test error =[1.570000000000001]
+mean test error = 1.57(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_3
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.65(0.00)s
+Test error =[0.32000000000000012]
+mean test error = 0.32(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_3
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.17(0.00)s
+Test error =[1.580000000000001]
+mean test error = 1.58(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_4
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.74(0.00)s
+Test error =[0.17999999999999999]
+mean test error = 0.18(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_4
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 23.88(0.00)s
+Test error =[1.1700000000000006]
+mean test error = 1.17(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_5
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.61(0.00)s
+Test error =[0.30000000000000004]
+mean test error = 0.30(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_5
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.90(0.00)s
+Test error =[1.5100000000000009]
+mean test error = 1.51(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_6
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.84(0.00)s
+Test error =[0.19]
+mean test error = 0.19(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_6
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.45(0.00)s
+Test error =[1.2800000000000007]
+mean test error = 1.28(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_7
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.86(0.00)s
+Test error =[0.34000000000000014]
+mean test error = 0.34(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_7
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.34(0.00)s
+Test error =[1.7800000000000011]
+mean test error = 1.78(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_8
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.89(0.00)s
+Test error =[0.33000000000000013]
+mean test error = 0.33(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_8
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 24.93(0.00)s
+Test error =[1.3200000000000007]
+mean test error = 1.32(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_9
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.57(0.00)s
+Test error =[0.27000000000000002]
+mean test error = 0.27(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_9
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 21.19(0.00)s
+Test error =[1.4000000000000008]
+mean test error = 1.40(0.00)
+
+====================================================================
+ApproachMSTS
+odd number of transfers,  approach = TL : TL_10
+training data fraction =1.0
+target_dataset details: sh1_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh2_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.47(0.00)s
+Test error =[0.31000000000000011]
+mean test error = 0.31(0.00)
+
+====================================================================
+ApproachMSTS
+even number of transfers, approach = STS : STS_10
+training data fraction =1.0
+target_dataset details: sh2_1cs_2p_3o
+            features  = 784
+             targets  = 3
+source_dataset details: sh1_1cs_2p_3o
+             features = 784
+              targets = 3
+Architecture details:   
+hidden_layers_sizes= [100, 100, 100]
+Max Nr. PT epochs  = 10
+Max Nr. FT epochs  = 1000
+PT learning_rate   = 0.001
+FT learning_rate   = 0.1
+batch_size         = 100
+dropout            = None
+dropout_rate       = 0.5
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 1 out of 1
+layers retrained by dataset_A :  [1, 1, 1, 1, 1, 1, 1, 1]
+Time to train ft layers = mean 20.96(0.00)s
+Test error =[1.5500000000000012]
+mean test error = 1.55(0.00)
+

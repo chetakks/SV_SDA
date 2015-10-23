@@ -1,0 +1,78 @@
+====================================================================
+Approach MSTS
+odd number of transfers,  approach = TL : TL_1
+target_dataset details: mnist
+source_dataset details: chars74k_lowercase28x28
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [0, 0, 0, 0, 1, 1, 1, 1]
+Time to train ft layers = mean 4132.85(290.26)s
+Test error =[2.48, 2.6000000000000001, 2.48]
+mean test error = 2.52(0.06)
+
+====================================================================
+Approach MSTS
+even number of transfers, approach = STS : STS_1
+target_dataset details: chars74k_lowercase28x28
+source_dataset details: mnist
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [0, 0, 0, 0, 1, 1, 1, 1]
+Time to train ft layers = mean 939.30(266.08)s
+Test error =[5.239248940036342, 5.1786795881284071, 5.0575408843125373]
+mean test error = 5.16(0.08)
+
+====================================================================
+Approach MSTS
+odd number of transfers,  approach = TL : TL_2
+target_dataset details: mnist
+source_dataset details: chars74k_lowercase28x28
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [0, 0, 0, 0, 1, 1, 1, 1]
+Time to train ft layers = mean 2001.54(380.37)s
+Test error =[2.52, 2.4199999999999999, 2.29]
+mean test error = 2.41(0.09)
+
+====================================================================
+Approach MSTS
+even number of transfers, approach = STS : STS_2
+target_dataset details: chars74k_lowercase28x28
+source_dataset details: mnist
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [0, 0, 0, 0, 1, 1, 1, 1]
+Time to train ft layers = mean 654.00(243.82)s
+Test error =[5.0272562083585708, 5.299818291944276, 5.0575408843125373]
+mean test error = 5.13(0.12)
+
+====================================================================
+Approach MSTS
+odd number of transfers,  approach = TL : TL_3
+target_dataset details: mnist
+source_dataset details: chars74k_lowercase28x28
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [0, 0, 0, 0, 1, 1, 1, 1]
+Time to train ft layers = mean 1569.96(360.02)s
+Test error =[2.4699999999999998, 2.48, 2.3700000000000001]
+mean test error = 2.44(0.05)
+
+====================================================================
+Approach MSTS
+even number of transfers, approach = STS : STS_3
+target_dataset details: chars74k_lowercase28x28
+source_dataset details: mnist
+source_reuse_mode  = PT+FT
+
+====  results for repetition # 3 out of 3
+layers retrained by dataset_A :  [0, 0, 0, 0, 1, 1, 1, 1]
+Time to train ft layers = mean 561.11(216.16)s
+Test error =[5.1786795881284071, 4.9666868564506359, 5.3603876438522109]
+mean test error = 5.17(0.16)
+

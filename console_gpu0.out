@@ -1,0 +1,107 @@
+Using gpu device 0: GeForce GTX 770
+experiment= ['BL', 'chars74k_uppercase28x28', None, None, None]
+training_data_fraction= 1.0
+['BL', 'chars74k_uppercase28x28', None, None, None]
+Fetching target dataset information ...
+target_dataset details chars74k_uppercase28x28
+                 n_ins 784
+                n_outs 26
+               dropout None
+          dropout_rate None
+------------repetition:  8
+/home/aditya/store/Theano/STS_full/results/test_STS_full_drp/chars74k_uppercase28x28_1.00/outputs_20140922185549_008.pkl.gz
+Experiment with chars74k_uppercase28x28 and None mode None
+... loading data
+chars74k_uppercase28x28
+proportion of target 0 in
+    trai set: 0.0367958812841
+proportion of target 1 in
+    trai set: 0.0380072683222
+proportion of target 2 in
+    trai set: 0.040127195639
+proportion of target 3 in
+    trai set: 0.0354330708661
+proportion of target 4 in
+    trai set: 0.0395972138098
+proportion of target 5 in
+    trai set: 0.0385372501514
+proportion of target 6 in
+    trai set: 0.0389915202907
+proportion of target 7 in
+    trai set: 0.0383858267717
+proportion of target 8 in
+    trai set: 0.037477286493
+proportion of target 9 in
+    trai set: 0.0393700787402
+proportion of target 10 in
+    trai set: 0.0399757722592
+proportion of target 11 in
+    trai set: 0.0400514839491
+proportion of target 12 in
+    trai set: 0.0372501514234
+proportion of target 13 in
+    trai set: 0.0385372501514
+proportion of target 14 in
+    trai set: 0.03944579043
+proportion of target 15 in
+    trai set: 0.0370987280436
+proportion of target 16 in
+    trai set: 0.0378558449425
+proportion of target 17 in
+    trai set: 0.038840096911
+proportion of target 18 in
+    trai set: 0.0356602059358
+proportion of target 19 in
+    trai set: 0.038158691702
+proportion of target 20 in
+    trai set: 0.0392943670503
+proportion of target 21 in
+    trai set: 0.0417171411266
+proportion of target 22 in
+    trai set: 0.0380072683222
+proportion of target 23 in
+    trai set: 0.0378558449425
+proportion of target 24 in
+    trai set: 0.0389158086008
+proportion of target 25 in
+    trai set: 0.0386129618413
+nr features:        784
+nr targets:        26
+targets are:     [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0]
+nr training instances:   13208
+nr validation instances:  6604
+nr test instances:       6604
+... building the model
+code in Sda6
+theano_rng 1054665268
+code in hidden layer
+Initial model:
+(784, 576)
+code in hidden layer
+Initial model:
+(576, 400)
+code in hidden layer
+Initial model:
+(400, 256)
+ y.ndim 1
+... getting the pretraining functions
+da5 get_corrupted_input theano_rng 1054665268
+da5 get_corrupted_input theano_rng 1054665268
+da5 get_corrupted_input theano_rng 1054665268
+... pre-training the model
+Pre-training layer 0, epoch 0, cost  86.5611572876
+Pre-training layer 0, epoch 1, cost  60.9773925925
+Pre-training layer 0, epoch 2, cost  53.919312429
+Pre-training layer 0, epoch 3, cost  49.7954264014
+Traceback (most recent call last):
+  File "experiment_gpu0.py", line 98, in <module>
+    bl_or_tl(experiment,training_data_fraction,results_dir, params,nr_reps)
+  File "/home/aditya/store/Theano/Clean_code/approaches.py", line 33, in bl_or_tl
+    approach)
+  File "/home/aditya/store/Theano/Clean_code/repetitions.py", line 178, in run_n_times
+    dropout_rate = dropout_rate)  
+  File "/home/aditya/store/Theano/Clean_code/source_t_source3.py", line 143, in reuse_SdA6
+    lr=pretrain_lr))
+  File "/usr/local/lib/python2.7/dist-packages/Theano-0.6.0-py2.7.egg/theano/compile/function_module.py", line 579, in __call__
+    outputs = self.fn()
+KeyboardInterrupt
